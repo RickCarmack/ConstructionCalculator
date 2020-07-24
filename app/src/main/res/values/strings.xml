@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lumber Calculator</string>
+    <string name="length">Length</string>
+    <string name="width">Width</string>
+    <string name="Pieces">Pieces</string>
+    <string name="lf">Lin.Ft.</string>
+    <string name="sf">Sq.Ft.</string>
+    <string name="calc">Calculate</string>
+    <string name="price">Price</string>
+    <string name="total">Total Price</string>
+</resources>

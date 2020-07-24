@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/length"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/length_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/width"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/width_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/Pieces"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/pieces_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/price"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/price_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:inputType="numberDecimal"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calc_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/colorAccent"
+            android:text="@string/calc"></Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/linear"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/lf"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/linear_feet"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="24dp"
+            android:text="2255"
+            android:textColor="@color/text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/square"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/sf"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/square_feet"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/square"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="24dp"
+            android:text="2255"
+            android:textColor="@color/text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="24dp"
+            android:text="$"
+            android:textColor="@color/text"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
