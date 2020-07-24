@@ -10,7 +10,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    
+    // TODO: 7/24/2020 on focus select number 
+    // TODO: 7/24/2020 remove decimal from sq. ft. 
+    // TODO: 7/24/2020 add decimal to total price 
+    // TODO: 7/24/2020 app crashes if 1 or more EditText are empty 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
